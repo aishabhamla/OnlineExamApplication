@@ -10,6 +10,6 @@ Instructor Password: teacher123
 Student Username: student@njit.edu
 Student Password: student123
 
-Designed and developed the application using Model View Controller architecture structured as a three-tiered client-server system. Front-middle-back
+Designed and developed the application using Model View Controller architecture structured as a three-tiered client-server system. Front, Middle, and Back
 
 The exam system will deal with open ended programming questions in python only
