@@ -23,7 +23,6 @@ function login(){
         }
     }
 
-    //
     var name = document.getElementById('login:username').value;
     var pass = document.getElementById('login:password').value;
     var myJSONObject = {"name": name,"pass":pass};
