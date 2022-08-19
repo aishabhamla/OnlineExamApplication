@@ -6,15 +6,13 @@
     
     if(isset($_POST['sort'])){
         $data=$_POST;
-        //print_r($data);
     }
 
 
     if(isset($_POST['submit'])){ 
         if($_POST['topic'] != '' || $_POST['question'] != ''){
             $key=array_keys($_POST); 
-            if (in_array("testcase2", $key) == "TRUE" && in_array("testcase6", $key) != "TRUE")
-            {  
+            if (in_array("testcase2", $key) == "TRUE" && in_array("testcase6", $key) != "TRUE") {  
                 $topic = $_POST['topic'];
                 $difficulty = $_POST['difficulty'];
                 $constraints = $_POST['constraints'];
@@ -47,8 +45,7 @@
                     'output_testcase5' => $output_testcase5,
                 );
             }
-            else if (in_array("testcase6", $key))
-            {
+            else if (in_array("testcase6", $key)) {
                 echo "<h4 style=color:red;><center>Extra Test cases (you can't have more than 5 testcases.)</center></h4>";
             }
             else
@@ -74,9 +71,6 @@
 
     $recieved_array = array();
     $recieved_array = json_decode($result,true);
-    //echo "<br>";
-    //print_r($recieved_array);
-    //var_dump($recieved_array);
 ?>
 <script>
 function addElement(elId,e,i) {
