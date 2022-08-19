@@ -1,0 +1,83 @@
+/* background layout */
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background: url("img.jpg");
+
+}
+
+/* login box appearence */
+.loginbox{
+    width: 380px;
+    height: 480px;
+    background: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+}
+
+/* font size */
+h1{
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 20px;
+    color: white;
+}
+
+/* login creds */
+.loginbox p{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    font-size: 18px;
+    height: 40px;
+    color: white;
+}
+ /* blue n white for theme */
+.loginbox input[type="submit"]{
+    height: 40px;
+    background: darkblue;
+    color: #ffffff;
+    font-size: 18px;
+    outline: 3px;
+    border: none;
+}
+
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: blue;
+    color: #000;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+/* highlight login button */
+.loginbox a:hover{
+    color: blue;
+}
