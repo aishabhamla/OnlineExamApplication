@@ -14,4 +14,4 @@ Designed and developed the application using Model View Controller architecture 
 
 The exam system will deal with open ended programming questions in python only
 
-This contains only the *front-end* code
+This contains only the **front-end** code
